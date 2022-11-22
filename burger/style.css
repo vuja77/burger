@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+header {
+	position: fixed;
+	z-index: 7;
+	height: 20px;
+	padding: 15px 25px 30px 25px;
+	width: 100%;
+	border-bottom: 1px solid gray;
+	top: 0px;
+	left: 0px;
+	transition: 0.5s;
+}
+header img#logo {
+	width: 50px;
+	margin-top: -10px;
+	position: unset;
+}
+#lg {
+	float: left;
+}
+.skrolovano {
+	background: orange;
+	color: black;
+	border: none;
+}
+.skrolovano ul li {
+	color: black;
+}
+ul {
+	margin-right: 30px;
+}
+ul li {
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+	float: right;
+	padding: 3px;
+}
+ul li.kliknuto {
+	color: yellow;
+	border-bottom: 3px solid yellow;
+}
+#sekcija{
+	background-image: url("https://img4.goodfon.com/original/1366x768/f/e1/burgery-bulochki-ovoshchi-miaso.jpg");
+	width:100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+}
+
+#gd {
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+}
+
+pre {
+	font-size: 110px;
+	line-height: 109px;
+	color: white;
+	margin-top: 120px;
+	margin-left: -130px;
+}
+#gd p {
+	width: 400px;
+	color: white;
+	font-family: arial;
+	position: relative;
+	top: -100px;
+	left: 100px;
+}
+span {
+	color: yellow;
+}
+#gd img {
+	width: 40%;
+	position: absolute;
+	top: 150px;
+	left: 55%;
+	
+}
+#vrsteBurgera {
+	width: 100%;
+	margin: auto;
+	height: 430px;
+	  scroll-behavior: smooth;
+
+	z-index: 4;
+	position: absolute;
+	top: 113%;
+	
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 40px 0px 20px 0px;
+}
+#vrsteBurgera div{
+width: 320px;
+height: 100%;
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 34%, rgba(29,29,29,1) 100%);
+display: inline-block;
+margin-left:50px;
+border-radius: 20px;
+text-align: center;
+}
+
+#vrsteBurgera div#aa {
+	margin-top: -20px;
+}
+#vrsteBurgera div img{
+	width: 270px;
+	height: 260px;
+	margin-left: -150px;
+	margin-top: -60px;
+}
+#brgh1 {
+	font-size: 60px;
+	position: absolute;
+	top: 102%;
+	left:70px;
+	border-bottom: 2px solid orange;
+}
+#vrsteBurgera div h1 {
+	color: white;
+	font-size: 32px;
+	margin-top: -30px;
+}
+#vrsteBurgera div button {
+	background: black;
+	padding: 10px;
+	border: 2px solid orange;
+	color: white;
+	width: 150px;
+	border-radius: 30px;
+	transition: 0.6s;
+	cursor: pointer;
+}
+#vrsteBurgera div pre {
+	color: white;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+i {
+	position: absolute;
+	font-size: 40px;
+	top: 146%;
+	background: rgba(0, 0, 0, 0.0);
+	border:none;
+	cursor: pointer;
+	background: white;
+	z-index: 4;
+	width: 40px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 5px;
+}
+#sk {
+	top: 240%;
+}
+hr {
+	width: 90%;
+	margin: auto;
+	height: 1px;
+	border: none;
+	background: orange;
+	margin-top: 5px;
+}
+h2{
+	color: white;
+	margin-left: -190px;
+	font-size: 30px;
+}
+#vrsteBurgera div button:hover {
+	background: orange;
+	color: black;
+}
+footer {
+	position: absolute;
+	top: 120%;
+	height: 200px;
+	width: 100%;
+	background: black;
+	margin-top: 1200px;
+}
+#lf {
+	margin-left: 15px;
+	z-index: 6;
+}
+#rh {
+	right: 10px;
+}
+
+#lf2 {
+	margin-left: 15px;
+	top: 235%;
+	z-index: 5;
+}
+#rh2 {
+	right: 10px;
+	top: 235%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+width: 5px;
+height: 5px
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+#vrsteSokova {
+	width: 100%;
+	margin: auto;
+	height: 400px;
+	  scroll-behavior: smooth;
+	 background: black;
+	z-index: 4;
+	position: absolute;
+	top: 213%;
+	
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 40px 0px 20px 0px;
+}
+#vrsteSokova div{
+width: 300px;
+height: 100%;
+background: rgb(196,95,0);
+background: linear-gradient(0deg, rgba(196,95,0,1) 0%, rgba(255,145,0,1) 100%);
+
+display: inline-block;
+margin-left:50px;
+border-radius: 20px;
+text-align: center;
+color: black;
+}
+
+#vrsteSokova div#aa {
+	margin-top: -20px;
+}
+#vrsteSokova div img{
+	width: 150px;
+	height: 200px;
+	margin-left: -150px;
+	margin-top: -30px;
+}
+
+#vrsteSokova div h1 {
+color: black;
+	font-size: 32px;
+	margin-top: -5px;
+}
+#vrsteSokova div h2 {
+	color: black;
+}
+#vrsteSokova div hr {
+	background: black;
+}
+#vrsteSokova div button {
+	background: #c45f00;
+	padding: 10px;
+	border: 2px solid black;
+	color: black;
+	width: 150px;
+	border-radius: 30px;
+	transition: 0.6s;
+	cursor: pointer;
+}
+#vrsteSokova div pre {
+	color: black;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+
+
+#vrsteSokova div button:hover {
+	background: black;
+	color: orange;
+}
+
+#drkh1 {
+	font-size: 60px;
+	position: absolute;
+	top: 198%;
+	left:70px;
+	border-bottom: 2px solid orange;
+}
+
+
+@media only screen and (max-width: 1010px) {
+	pre {
+
+   	 line-height: 94px;
+	    font-size: 95px;
+	}
+	#gd p {
+  
+ 
+    top: -85px;
+    left: 71px;
+}
+}
+@media only screen and (max-width: 800px) {
+	pre {
+
+   	 line-height: 86px;
+	    font-size: 87px;
+	}
+	#gd p {
+  
+ 
+    top: -85px;
+    left: 71px;
+}
+}
+@media only screen and (max-width: 694px) {
+	pre {
+
+   	 line-height: 84px;
+	    font-size: 85px;
+	}
+	#gd p {
+  
+ 
+    top: -85px;
+    left: 50px;
+}
+
+#gd img {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 464px) {
+	pre {
+
+   	 line-height: 74px;
+	    font-size: 75px;
+	}
+	#gd p {
+  
+ 	width: 300px;
+    top: -65px;
+    left: 30px;
+}
+
+#gd img {
+	display: none;
+}
+}
